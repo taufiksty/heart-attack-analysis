@@ -73,8 +73,8 @@ def main():
     plt.scatter(x=df.age[df.output == 1], y=df.thalachh[df.output == 1], c="salmon")
     plt.scatter(x=df.age[df.output == 0], y=df.thalachh[df.output == 0], c="lightblue")
     plt.title("Heart Disease in Function of Age and Max Heart Rate")
-    plt.xlabel("Max Heart Rate")
-    plt.ylabel("Age")
+    plt.xlabel("Age")
+    plt.ylabel("Max Heart Rate")
     plt.legend(["Disease", "No Disease"])
     st.pyplot(fig)
 
